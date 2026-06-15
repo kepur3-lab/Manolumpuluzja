@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Opinie-polityczne</title>
+</head>
+<body>
+
+<h1>Opinie polityczne</h1>
+<p>Tutaj kopiuję opinie publikowane na Fb</p>
+<ul>
+<li><a href="Krytyka-USA.html">Krytyka USA</a></li>
+</ul>
+</p>
+
+<a href="../Index.html">Wstecz</a>
+
+
+</body>
+</html>

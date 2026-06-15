@@ -1,1 +1,2 @@
 Musisz kliknąć w link aby działał, te nazwy u góry to nazwy plików strony. GitHub po prostu ma taki interfejs.
+https://kepur3-lab.github.io/Manolumpuluzja/

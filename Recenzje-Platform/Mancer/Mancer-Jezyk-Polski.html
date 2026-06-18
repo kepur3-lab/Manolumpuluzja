@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mancer Polski</title>
+</head>
+<body>
+
+<h1>Jakość języka polskiego w modelach od Mancer</h1>
+<p>Na Czerwiec 2026 Mancer oferuje tylko kilka modeli, ale dla polskiego użytkownika tylko niektóre mogą być użyteczne. Dotychczas stawiali na popularne modele oparte na LLaMA2, której większość danych treningowych było na angielskim. Poniżej przedstawiam jakość poszczególnych, użyłem aplikacji SillyTavern, API od Mancer i opisy postaci Lysandry prostytutki.</p>
+
+<h2>Opisy Lyn w skrócie</h2>
+<p>- Ucieleśnienie żywiołu wody: emocjonalne, empatyczne, intuicyjne, introwertyczne.
+- Silna wola pozwala przetrwać pomimo słabości; tolerancyjny wobec ekscentryczności.
+- Etykieta „Femcel” z powodu niskiej samooceny; zwrócił się ku prostytucji, aby uzyskać kontrolę, a później działalność charytatywną.
+- Kultura pornograficzna wpływa na hobby (gry erotyczne); deklaruje zainteresowanie religią/wojskiem (mało prawdopodobne).
+- Komunikacja: ostry język, dwuznaczność, emocjonalne opowiadanie historii, pedantyczny; skupiony na granicach.
+- Relacje: pragmatyczne, stabilne, bez romantyzmu; empatia często ukryta, prowadząca do samotności.
+- Finanse: niepewne („student po egzaminach”); poszukuje sponsorów; wykorzystuje prawa autorskie, wprowadzając płatne modyfikacje i płatności kryptowalutowe.
+- Obrona emocjonalna: wycofuje się ze strachu/agresji; nosi przy sobie taser i zna wrażliwe punkty, które umożliwiają samoobronę/planowanie ucieczki.
+- Seksualność: delikatnie dominująca, ale priorytetowo traktowana satysfakcja partnera; czasami nachalny; wytrzymałość nie jest hiperseksualizowana.
+- Zdrowie: polega na tabletkach hormonalnych, aby uniknąć ciąży z negatywnymi konsekwencjami dla zdrowia i nieregularnie używa prezerwatyw z obawy przed uszkodzeniem.|{{user}} {{char}}</p>
+
+<h2>Dans PE 12-24B</h2>
+<p>Jak widać mały francuski model nie potrafi czegokolwiek sensownego po polsku. Większa ilość parametrów znacznie poprawia jakość językową, wersja Mistrala jak zwykle zaskakuje kreatywnością. Natomiast nie jest to spójne z reklamą że Mistral jest modelem typowo europejskim, francuski czy niemiecki to zupełnie inne języki niż drugoligowy język polski.</p>
+
+<img src="Dans-PE-12B.png" width="645" height="200" />
+<img src="Dans-PE-24B.png" width="660" height="800" />
+
+<h2>GLM 4.7</h2>
+<p>Chiński gigant pomimo chińskiej jakości świetnie sobie radzi z językiem polskim. W odróżnieniu do niektórych niszowych języków chińskich, bo dominuje Mandaryński, Polski został uwzględniony w danych treningowych. Nieliczne błędy są dosyć rzadkie, co w połączeniu z logiką czyni go świetnym wyborem pod polską fabułe.</p>
+
+<img src="GLM-47.png" width="645" height="200" />
+
+<h2>Magnum 72B</h2>
+<p>Jakość językowa jest poprawna, natomiast logika kuleje, można powiedzieć że zaskakuje improwizacją, dodając nowych wątków dla postaci. Wcześniej wydawało mnie się to co najwyżej średnie dla darmowego modelu na CrushOn, a właśnie od Mancera oni kupują Magnum. Przyczyną tego stanu jakości może być lepszy tokenizer dla języka polskiego, jaki ma chiński Qwen, choć nie do końca rozumiem w czym rzecz.
+</p>
+
+<img src="Magnum-72B.png" width="650" height="820" />
+
+<h2>Mytho Lite i MythoMax</h2>
+<p>Nazwa nie ma nic wspólnego z Mythos od Anthropic. Jest to tylko tani LLaMA od Sao10K na którym można sprawdzić czy aplikacja czatowa w ogóle działa. Za darmo to uczciwa cena za brak odpowiedzi oraz limit tokenów. W drugim przypadku jest to tylko niedorobione podsumowanie automatyczne dla promptu postaci. Może w angielskim pisze normalnie, ale po polsku nic z tego.</p>
+
+<img src="MythoLite.png" width="650" height="190" />
+<img src="MythoMax.png" width="650" height="290" />
+
+<h2>ReMM SLerp</h2>
+<p>Zachęcająca nazwa, ale ma problem ten sam co tematyka, czyli wylew spermy do mózgu, patrząc na logike odwzorowania postaci. Natomiast jakość poprawna, czyniąc odpowiedzi zabawnymi.</p>
+
+<img src="ReMM-SLerp.png" width="650" height="290" />
+
+<h2>Weaver Alpha</h2>
+<p>Jak sama nazwa wskazuje, model w wersji Alfa. Logika żadna, drobne błędy językowe i  brak zdolności do pisania długich wypowiedzi. Może Weaver Epsilon będzie mieć sensowny wynik</p>
+
+<img src="Weaver-Alpha.png" width="650" height="810" />
+
+<a href="../Recenzje-Platform.html">Wstecz</a>
+
+</body>
+</html>
